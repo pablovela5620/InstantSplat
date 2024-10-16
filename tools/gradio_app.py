@@ -26,4 +26,4 @@ with gr.Blocks() as demo:
         multi_img_block.render()
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(server_name="0.0.0.0")
